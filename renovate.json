@@ -3,8 +3,7 @@
     "config:base",
     "github>renditions/renovate-config:groupMinorUpdates(dependencies)",
     "github>renditions/renovate-config:groupCIDependencyUpdates",
-    "github>renditions/renovate-config:groupLinterUpdates",
-    "github>renditions/renovate-config:groupNodeUpdates"
+    "github>renditions/renovate-config:groupLinterUpdates"
   ],
   "dependencyDashboard": true,
   "pinDigests": true
