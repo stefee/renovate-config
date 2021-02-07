@@ -3,7 +3,7 @@
   "extends": ["github>renditions/renovate-config:groupNodeUpdates"],
   "packageRules": [
     {
-      "packageNames": ["node", "circleci/node", "cypress/browsers"],
+      "extends": ["github>renditions/renovate-config:node"],
       "patch": {
         "automerge": false,
         "labels": ["{{arg0}}"]
