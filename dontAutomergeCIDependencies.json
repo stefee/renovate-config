@@ -1,6 +1,6 @@
 {
   "description": "Disables automerge for CI pipeline dependencies.",
-  "extends": ["github>CondeNast/renovate-config:groupCIDependencyUpdates"],
+  "extends": ["github>renditions/renovate-config:groupCIDependencyUpdates"],
   "packageRules": [
     {
       "managers": ["circleci"],

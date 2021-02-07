@@ -9,8 +9,8 @@ In your `renovate.json`:
 ```
 {
   "extends": [
-    "github>CondeNast/renovate-config",
-    "github>CondeNast/renovate-config:forceCondenastUpdates"
+    "github>renditions/renovate-config",
+    "github>renditions/renovate-config:forceCondenastUpdates"
   ]
 }
 ```
@@ -24,14 +24,14 @@ If you would like to [auto-merge](https://docs.renovatebot.com/configuration-opt
 ```
 {
   "extends": [
-    "github>CondeNast/renovate-config",
-    "github>CondeNast/renovate-config:automergeMinor",
-    "github>CondeNast/renovate-config:dontAutomergeMajor(help wanted)",
-    "github>CondeNast/renovate-config:dontAutomergeNode(help wanted)",
-    "github>CondeNast/renovate-config:dontAutomergeTestFrameworks(help wanted)",
-    "github>CondeNast/renovate-config:dontAutomergeCIDependencies(help wanted)",
-    "github>CondeNast/renovate-config:condenastStabilityDays",
-    "github>CondeNast/renovate-config:forceCondenastUpdates"
+    "github>renditions/renovate-config",
+    "github>renditions/renovate-config:automergeMinor",
+    "github>renditions/renovate-config:dontAutomergeMajor(help wanted)",
+    "github>renditions/renovate-config:dontAutomergeNode(help wanted)",
+    "github>renditions/renovate-config:dontAutomergeTestFrameworks(help wanted)",
+    "github>renditions/renovate-config:dontAutomergeCIDependencies(help wanted)",
+    "github>renditions/renovate-config:condenastStabilityDays",
+    "github>renditions/renovate-config:forceCondenastUpdates"
   ]
 }
 ```
@@ -42,11 +42,11 @@ You can also use any individual **semantic presets** without using the base pres
 {
   "extends": [
     "config:base",
-    "github>CondeNast/renovate-config:groupMinorUpdates(dependencies)",
-    "github>CondeNast/renovate-config:groupCIDependencyUpdates",
-    "github>CondeNast/renovate-config:groupLinterUpdates",
-    "github>CondeNast/renovate-config:groupNodeUpdates",
-    "github>CondeNast/renovate-config:forceCondenastUpdates"
+    "github>renditions/renovate-config:groupMinorUpdates(dependencies)",
+    "github>renditions/renovate-config:groupCIDependencyUpdates",
+    "github>renditions/renovate-config:groupLinterUpdates",
+    "github>renditions/renovate-config:groupNodeUpdates",
+    "github>renditions/renovate-config:forceCondenastUpdates"
   ]
 }
 ```
@@ -57,30 +57,30 @@ A description for each preset can be found in the JSON file for the preset store
 
 ### Condé Nast presets
 
-* [`github>CondeNast/renovate-config:forceCondenastUpdates`](./forceCondenastUpdates.json) - **NOTE: this preset should go at the end of the `extends` array.**
-* [`github>CondeNast/renovate-config:condenastStabilityDays`](./condenastStabilityDays.json)
+* [`github>renditions/renovate-config:forceCondenastUpdates`](./forceCondenastUpdates.json) - **NOTE: this preset should go at the end of the `extends` array.**
+* [`github>renditions/renovate-config:condenastStabilityDays`](./condenastStabilityDays.json)
 
 ### PR Group presets
 
-* [`github>CondeNast/renovate-config:groupMinorUpdates`](./groupMinorUpdates.json)
-* [`github>CondeNast/renovate-config:groupCIDependencyUpdates`](./groupCIDependencyUpdates.json)
-* [`github>CondeNast/renovate-config:groupLinterUpdates`](./groupLinterUpdates.json)
-* [`github>CondeNast/renovate-config:groupNodeUpdates`](./groupNodeUpdates.json)
+* [`github>renditions/renovate-config:groupMinorUpdates`](./groupMinorUpdates.json)
+* [`github>renditions/renovate-config:groupCIDependencyUpdates`](./groupCIDependencyUpdates.json)
+* [`github>renditions/renovate-config:groupLinterUpdates`](./groupLinterUpdates.json)
+* [`github>renditions/renovate-config:groupNodeUpdates`](./groupNodeUpdates.json)
 
 ### Auto-Merge presets
 
-* [`github>CondeNast/renovate-config:automergeMinor`](./automergeMinor.json)
-* [`github>CondeNast/renovate-config:dontAutomergeMajor`](./dontAutomergeMajor.json)
-* [`github>CondeNast/renovate-config:dontAutomergeNode`](./dontAutomergeNode.json)
-* [`github>CondeNast/renovate-config:dontAutomergeTestFrameworks`](./dontAutomergeTestFrameworks.json)
-* [`github>CondeNast/renovate-config:dontAutomergeCIDependencies`](./dontAutomergeCIDependencies.json)
-* [`github>CondeNast/renovate-config:unpublishSafe`](./unpublishSafe.json) - **NOTE: `unpublishSafe` doesn't work if you apply it to dependency groups, because the whole group will be on pause as long as one or more of the dependencies in the group was published in the last 24 hours. For this reason, `unpublishSafe` is not compatible with `groupMinorUpdates`.**
+* [`github>renditions/renovate-config:automergeMinor`](./automergeMinor.json)
+* [`github>renditions/renovate-config:dontAutomergeMajor`](./dontAutomergeMajor.json)
+* [`github>renditions/renovate-config:dontAutomergeNode`](./dontAutomergeNode.json)
+* [`github>renditions/renovate-config:dontAutomergeTestFrameworks`](./dontAutomergeTestFrameworks.json)
+* [`github>renditions/renovate-config:dontAutomergeCIDependencies`](./dontAutomergeCIDependencies.json)
+* [`github>renditions/renovate-config:unpublishSafe`](./unpublishSafe.json) - **NOTE: `unpublishSafe` doesn't work if you apply it to dependency groups, because the whole group will be on pause as long as one or more of the dependencies in the group was published in the last 24 hours. For this reason, `unpublishSafe` is not compatible with `groupMinorUpdates`.**
 
 
 ### Package Pattern presets
 
 These presets can be used to apply custom rules to a set of packages using [`packageRules`](https://docs.renovatebot.com/configuration-options/#packagerules).
 
-* Node.js sources - [`github>CondeNast/renovate-config:node`](./node.json)
-* Condé Nast packages - [`github>CondeNast/renovate-config:orgPackages`](./orgPackages.json)
-* Testing frameworks - [`github>CondeNast/renovate-config:testFrameworks`](./testFrameworks.json)
+* Node.js sources - [`github>renditions/renovate-config:node`](./node.json)
+* Condé Nast packages - [`github>renditions/renovate-config:orgPackages`](./orgPackages.json)
+* Testing frameworks - [`github>renditions/renovate-config:testFrameworks`](./testFrameworks.json)
