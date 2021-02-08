@@ -1,7 +1,0 @@
-{
-  "description": "Disables automerge for major updates.",
-  "major": {
-    "automerge": false,
-    "labels": ["{{arg0}}"]
-  }
-}

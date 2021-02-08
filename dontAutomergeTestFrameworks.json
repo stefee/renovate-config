@@ -5,35 +5,20 @@
       "extends": ["github>renditions/renovate-config:testFrameworks"],
       "automerge": false,
       "groupName": "test dependencies",
-      "labels": ["{{arg0}}"],
-      "patch": {
-        "automerge": false,
-        "groupName": "test dependencies",
-        "labels": ["{{arg0}}"]
-      },
       "minor": {
         "automerge": false,
-        "groupName": "test dependencies",
-        "labels": ["{{arg0}}"]
+        "groupName": "test dependencies"
       },
       "major": {
-        "automerge": false,
-        "labels": ["{{arg0}}"]
+        "automerge": false
       },
       "pin": {
         "automerge": false,
-        "groupName": "test dependencies",
-        "labels": ["{{arg0}}"]
+        "groupName": "test dependencies"
       },
       "digest": {
         "automerge": false,
-        "groupName": "test dependencies",
-        "labels": ["{{arg0}}"]
-      },
-      "lockFileMaintenance": {
-        "automerge": false,
-        "groupName": "test dependencies",
-        "labels": ["{{arg0}}"]
+        "groupName": "test dependencies"
       }
     }
   ]

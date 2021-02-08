@@ -1,8 +1,5 @@
 {
-  "description": "Enables automerge for non-major updates.",
-  "patch": {
-    "automerge": true
-  },
+  "description": "Enables automerge for all non-major updates.",
   "minor": {
     "automerge": true
   },
@@ -10,9 +7,6 @@
     "automerge": true
   },
   "digest": {
-    "automerge": true
-  },
-  "lockFileMaintenance": {
     "automerge": true
   }
 }

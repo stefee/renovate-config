@@ -6,9 +6,6 @@
       "stabilityDays": 3,
       "prCreation": "not-pending",
       "groupName": "Node.js",
-      "patch": {
-        "groupName": "Node.js"
-      },
       "minor": {
         "groupName": "Node.js"
       },

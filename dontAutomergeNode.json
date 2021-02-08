@@ -4,17 +4,14 @@
   "packageRules": [
     {
       "extends": ["github>renditions/renovate-config:node"],
-      "patch": {
-        "automerge": false,
-        "labels": ["{{arg0}}"]
-      },
       "minor": {
-        "automerge": false,
-        "labels": ["{{arg0}}"]
+        "automerge": false
       },
       "major": {
-        "automerge": false,
-        "labels": ["{{arg0}}"]
+        "automerge": false
+      },
+      "digest": {
+        "automerge": false
       }
     }
   ]
