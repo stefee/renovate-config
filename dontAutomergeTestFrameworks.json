@@ -2,7 +2,7 @@
   "description": "Disables automerge for testing frameworks. Upgrades to testing frameworks need to be validated manually to avoid false positive results.",
   "packageRules": [
     {
-      "extends": ["github>renditions/renovate-config:testFrameworks"],
+      "extends": ["github>stefee/renovate-config:testFrameworks"],
       "automerge": false,
       "groupName": "test dependencies",
       "minor": {
