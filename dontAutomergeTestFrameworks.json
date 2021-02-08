@@ -9,9 +9,6 @@
         "automerge": false,
         "groupName": "test dependencies"
       },
-      "major": {
-        "automerge": false
-      },
       "pin": {
         "automerge": false,
         "groupName": "test dependencies"
