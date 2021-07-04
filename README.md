@@ -33,9 +33,7 @@ You can also use any individual **semantic presets** without using the base pres
 {
   "extends": [
     "config:base",
-    "github>stefee/renovate-config:groupMinorUpdates",
-    "github>stefee/renovate-config:groupLinterUpdates",
-    "github>stefee/renovate-config:groupNodeUpdates"
+    "github>stefee/renovate-config:groupLinterUpdates"
   ]
 }
 ```
