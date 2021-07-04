@@ -2,7 +2,8 @@
   "extends": [
     "config:base",
     "group:allNonMajor",
-    "group:linters"
+    "group:linters",
+    "group:test"
   ],
   "dependencyDashboard": true,
   "pinDigests": true
