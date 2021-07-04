@@ -31,8 +31,7 @@ If you would like to [auto-merge](https://docs.renovatebot.com/configuration-opt
 
 A description for each preset can be found in the JSON file for the preset stored in this repo.
 
-### Auto-Merge presets
-
+* [`github>stefee/renovate-config:groupNodeJs`](./groupNodeJs.json)
 * [`github>stefee/renovate-config:automergeMinor`](./automergeMinor.json)
 * [`github>stefee/renovate-config:dontAutomergeNode`](./dontAutomergeNode.json)
 * [`github>stefee/renovate-config:dontAutomergeTestFrameworks`](./dontAutomergeTestFrameworks.json)
