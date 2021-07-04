@@ -27,24 +27,9 @@ If you would like to [auto-merge](https://docs.renovatebot.com/configuration-opt
 }
 ```
 
-You can also use any individual **semantic presets** without using the base preset. Here's a configuration that groups things but doesn't auto-merge them:
-
-```
-{
-  "extends": [
-    "config:base",
-    "github>stefee/renovate-config:groupLinterUpdates"
-  ]
-}
-```
-
 ## Semantic Presets
 
 A description for each preset can be found in the JSON file for the preset stored in this repo.
-
-### PR Group presets
-
-* [`github>stefee/renovate-config:groupLinterUpdates`](./groupLinterUpdates.json)
 
 ### Auto-Merge presets
 
