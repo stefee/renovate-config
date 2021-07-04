@@ -1,9 +1,8 @@
 {
   "extends": [
     "config:base",
-    "github>stefee/renovate-config:groupMinorUpdates",
-    "github>stefee/renovate-config:groupLinterUpdates",
-    "github>stefee/renovate-config:groupNodeUpdates"
+    "group:allNonMajor",
+    "github>stefee/renovate-config:groupLinterUpdates"
   ],
   "dependencyDashboard": true,
   "pinDigests": true
