@@ -3,7 +3,8 @@
     "config:base",
     "group:allNonMajor",
     "group:linters",
-    "group:test"
+    "group:test",
+    "group:nodeJs"
   ],
   "dependencyDashboard": true,
   "pinDigests": true
