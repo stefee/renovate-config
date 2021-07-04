@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "matchPackageNames": ["nock", "jsdom"],
-      "matchPackagePatterns": ["^cypress", "^jest", "^@pollyjs"]
+      "matchPackagePatterns": ["^cypress", "^jest", "^@pollyjs"],
       "automerge": false,
       "groupName": "test dependencies",
       "minor": {
