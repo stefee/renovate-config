@@ -46,19 +46,10 @@ A description for each preset can be found in the JSON file for the preset store
 
 ### PR Group presets
 
-* [`github>stefee/renovate-config:groupMinorUpdates`](./groupMinorUpdates.json)
 * [`github>stefee/renovate-config:groupLinterUpdates`](./groupLinterUpdates.json)
-* [`github>stefee/renovate-config:groupNodeUpdates`](./groupNodeUpdates.json)
 
 ### Auto-Merge presets
 
 * [`github>stefee/renovate-config:automergeMinor`](./automergeMinor.json)
 * [`github>stefee/renovate-config:dontAutomergeNode`](./dontAutomergeNode.json)
 * [`github>stefee/renovate-config:dontAutomergeTestFrameworks`](./dontAutomergeTestFrameworks.json)
-
-### Package Pattern presets
-
-These presets can be used to apply custom rules to a set of packages using [`packageRules`](https://docs.renovatebot.com/configuration-options/#packagerules).
-
-* Node.js sources - [`github>stefee/renovate-config:node`](./node.json)
-* Testing frameworks - [`github>stefee/renovate-config:testFrameworks`](./testFrameworks.json)
