@@ -1,4 +1,0 @@
-{
-  "matchPackageNames": ["nock", "jsdom"],
-  "matchPackagePatterns": ["^cypress", "^jest", "^@pollyjs"]
-}
