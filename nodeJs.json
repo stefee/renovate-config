@@ -1,0 +1,4 @@
+{
+  "matchPackageNames": ["node"],
+  "matchPackagePatterns": ["/node$"]
+}
