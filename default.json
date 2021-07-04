@@ -4,7 +4,8 @@
     "group:allNonMajor",
     "group:linters",
     "group:test",
-    "group:nodeJs"
+    "group:nodeJs",
+    "local>stefee/renovate-config:groupNodeJs"
   ],
   "dependencyDashboard": true,
   "pinDigests": true
