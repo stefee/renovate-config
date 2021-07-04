@@ -1,4 +1,0 @@
-{
-  "matchPackageNames": ["node"],
-  "matchPackagePatterns": ["/node$"]
-}
