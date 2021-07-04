@@ -3,7 +3,7 @@
   "extends": ["github>stefee/renovate-config:groupNodeUpdates"],
   "packageRules": [
     {
-      "extends": ["github>stefee/renovate-config:node"],
+      "matchPackageNames": ["node"],
       "minor": {
         "automerge": false
       },
