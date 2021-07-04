@@ -3,6 +3,7 @@
   "packageRules": [
     {
       "matchPackageNames": ["node"],
+      "matchPackagePatterns": ["/node$"],
       "minor": {
         "automerge": false
       },
