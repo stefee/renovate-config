@@ -8,5 +8,8 @@
     "local>stefee/renovate-config:groupNodeJs"
   ],
   "dependencyDashboard": true,
-  "pinDigests": true
+  "pinDigests": true,
+  "reviewers": [
+    "stefee"
+  ]
 }
